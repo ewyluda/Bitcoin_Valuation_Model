@@ -7,8 +7,7 @@ Since 2017 Bitcoin and the cryptocurreny universe has attracted massive attentio
 ### Metcalfe's Law
 Metcalfe's Law, states that the value of a telecommunications network is proportional to the square of the number of connected users of the system (NV ~ n2).
 
-![Metcalfe's Law Graphic](resources/metcalfe.png)
+![Metcalfe's Law Graphic](resources/metcalfe2.png)
 
 Two telephones can make only one connection, five can make 10 connections, and twelve can make 66 connections.
 
-This graphic pulled from wikipedia nicely illustrates the significance of Metcalfe's Law.
