@@ -20,9 +20,24 @@ In this study, the goal was to estimate whether Bitcoin's price is supported by 
 
 ## Developing Fundamental Upper & Lower Boundaries
 
-Metcalfe's Original Law (NV ~ n2) was used to create the upper fundamental value boundary for Bitcoin. The original law was chosen for the upper boundary because it is the most liberal and considers each and every user equally contributes to the value of the network.
+Metcalfe's Original Law (NV ~ n2) was used to create the upper fundamental value boundary for Bitcoin. The original law was chosen for the upper boundary because it is the most liberal and considers each and every user equally contributes to the value of the network which is idealistic but makes for a logical upper boundary.
 
 Odlyzko's Law (NV ~ n*ln(n)) was used to create the lower fundamental value boundary. Odlyzko's Law, being the most conservative of the 3 variations studied made the most sense to use for the lower boundary.
 
-![Upper & Lower Boundaries](resources/upper_lower_boundaries.png)
+![Upper & Lower Boundaries](resources/upper_lower_bounds.png)
 
+### Calculations
+![Bounday Formula](resources/upper_lower_formula.png)
+
+## Normalizing Upper and Lower Boundaries
+
+The fundamental upper and lower boundaries that were derived above were then normalized by taking the sum of the boundaries and dividing them by 2 to create a fundemantal valuation of the Bitcoin network. The fundemantal valuation was plotted against Bitcoin price to examine the correlation.
+![Fundamental Value Normalized](resources/fundamental_normalized.png)
+
+Values (a1, a2, b1, b2) are constants that were chosen empirically through testing to find the narrowest channel between the upper and lower boundaries while still containing the actual net asset value.
+
+30 MA[] signifies the 30 day moving average for the inside values.
+
+## Results
+The correlation between Bitcoin's actual price and the different variations of metcalfe's law is 0.939, and the differences in correlation between the varrying laws is so small it can be considered equal.
+The significance of these findings leads one to believe value of the Bitcoin network is related to the amount of Daily Active Addresses or rather the number of daily unique on-chain transactions. On-chain transactions is a crucial detail as it eliminates the trading activity found on crypto exhanges as those are considered off-chain transactions and could greatly affect the fundamental value boundary calculations.
