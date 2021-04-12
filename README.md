@@ -1,11 +1,11 @@
 # Bitcoin_Valuation_Model
 #### A model to estimate whether current Bitcoin price is supported by activity on the network.
 
-#### A special thanks to Dmitry Kalichkin for the inspriation to continue the work by CryptoLab Capital found in his post on medium.com
+#### A special thanks to Dmitry Kalichkin for the inspiration to continue the work by CryptoLab Capital found in his post on medium.com
 **Rethinking Metcalfe’s Law applications to cryptoasset valuation by @Kalichkin https://link.medium.com/TyrugPb9ofb 
 
 ## Introduction
-Since 2017 Bitcoin and the cryptocurreny universe has attracted massive attention and has been a personal interest of mine. While researching ways to value Bitcoin and other cryptocurencies, I came accross the work of Chris Burniske and his book, Cryptoassets: The Innovative Investor's Guide to Bitcoin and Beyond, and became fascinated with his method to determine the fundamental value of cryptocurrenies using Metcalfe's Law.
+Since 2017 Bitcoin and the cryptocurrency universe has attracted massive attention and has been a personal interest of mine. While researching ways to value Bitcoin and other cryptocurrencies, I came across the work of Chris Burniske and his book, Cryptoassets: The Innovative Investor's Guide to Bitcoin and Beyond, and became fascinated with his method to determine the fundamental value of cryptocurrencies using Metcalfe's Law.
 
 ### Metcalfe's Law
 Metcalfe's Law, states that the value of a telecommunications network is proportional to the square of the number of connected users of the system (NV ~ n2).
@@ -30,17 +30,17 @@ Odlyzko's Law (NV ~ n*ln(n)) was used to create the lower fundamental value boun
 ![Upper & Lower Boundaries](resources/upper_lower_bounds.png)
 
 ### Calculations
-![Bounday Formula](resources/upper_lower_formula.png)
+![Boundary Formula](resources/upper_lower_formula.png)
 
 ## Normalizing Upper and Lower Boundaries
 
-The fundamental upper and lower boundaries that were derived above were then normalized by taking the sum of the boundaries and dividing them by 2 to create a fundemantal valuation of the Bitcoin network. The fundemantal valuation was plotted against Bitcoin price to examine the correlation.
+The fundamental upper and lower boundaries that were derived above were then normalized by taking the sum of the boundaries and dividing them by 2 to create a fundamental valuation of the Bitcoin network. The fundamental valuation was plotted against Bitcoin price to examine the correlation.
 ![Fundamental Value Normalized](resources/fundamental_normalized.png)
 
 Values (a1, a2, b1, b2) are constants that were chosen empirically through testing to find the narrowest channel between the upper and lower boundaries while still containing the actual net asset value.
 
-30 MA[] signifies the 30 day moving average for the inside values.
+30 MA[] signifies the 30-day moving average for the inside values.
 
 ## Results
-The correlation between Bitcoin's actual price and the different variations of metcalfe's law is 0.939, and the differences in correlation between the varrying laws is so small it can be considered equal.
-The significance of these findings leads one to believe value of the Bitcoin network is related to the amount of Daily Active Addresses or rather the number of daily unique on-chain transactions. On-chain transactions is a crucial detail as it eliminates the trading activity found on crypto exhanges as those are considered off-chain transactions and could greatly affect the fundamental value boundary calculations.
+The correlation between Bitcoin's actual price and the different variations of Metcalfe’s law is 0.939, and the differences in correlation between the varying laws is so small it can be considered equal.
+The significance of these findings leads one to believe value of the Bitcoin network is related to the amount of Daily Active Addresses or rather the number of daily unique on-chain transactions. On-chain transactions is a crucial detail as it eliminates the trading activity found on crypto exchanges as those are considered off-chain transactions and could greatly affect the fundamental value boundary calculations.
