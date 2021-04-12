@@ -21,6 +21,9 @@ Critics of Metcalfe's Law point to the fact that not all network connections or 
 ## Objective
 In this study, the goal was to estimate whether Bitcoin's price is supported by activity on the network. To do this, upper and lower bounds for Bitcoin Network Value were derived based on the number of Daily Active Addresses (DAA). 
 
+## Data
+Daily data for Bitcoin NAV and Daily Active Addresses was sourced from https://coinmetrics.io and consisted of a downloadable csv as they no longer support free API connections.
+
 ## Developing Fundamental Upper & Lower Boundaries
 
 Metcalfe's Original Law (NV ~ n2) was used to create the upper fundamental value boundary for Bitcoin. The original law was chosen for the upper boundary because it is the most liberal and considers each and every user equally contributes to the value of the network which is idealistic but makes for a logical upper boundary.
