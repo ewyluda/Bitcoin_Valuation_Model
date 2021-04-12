@@ -11,3 +11,8 @@ Metcalfe's Law, states that the value of a telecommunications network is proport
 
 Two telephones can make only one connection, five can make 10 connections, and twelve can make 66 connections.
 
+Critics of Metcalfe's Law point to the fact that not all network connections or users contribute equally to the network, to account for this I used Metcalfe's Law (NV ~ n2) along with two variations to the law being Odlyzko's Law and the Generalized Metcalfe's Law (Clearblocks determination) shown below:
+![Metcalfe Variations](resources/metcalfe_variations.png)
+
+In this study, the goal was to estimate whether Bitcoin's price is supported by activity on the network. To do this, upper and lower bounds for Bitcoin Network Value were derived based on the number of Daily Active Addresses (DAA). Using different 
+
