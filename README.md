@@ -14,7 +14,7 @@ Metcalfe's Law, states that the value of a telecommunications network is proport
 
 Two telephones can make only one connection, five can make 10 connections, and twelve can make 66 connections.
 
-Critics of Metcalfe's Law point to the fact that not all network connections or users contribute equally to the network, to account for this I used Metcalfe's Law (NV ~ n2) along with two variations to the law being Odlyzko's Law and the Generalized Metcalfe's Law (Clearblocks determination) shown below:
+Critics of Metcalfe's Law point to the fact that not all network connections or users contribute equally to the network, to account for this I used Metcalfe's Law (NV ~ n2) along with two variations being Odlyzko's Law and Generalized Metcalfe's Law (Clearblocks determination) shown below:
 
 ![Metcalfe Variations](resources/metcalfe_variations.png)
 
@@ -45,4 +45,4 @@ Values (a1, a2, b1, b2) are constants that were chosen empirically through testi
 
 ## Results
 The correlation between Bitcoin's actual price and the different variations of Metcalfe’s law is **0.939**, and the differences in correlation between the varying laws is so small it can be considered equal.
-The significance of these findings leads one to believe value of the Bitcoin network is related to the amount of Daily Active Addresses or rather the number of daily unique on-chain transactions. On-chain transactions is a crucial detail as it eliminates the trading activity found on crypto exchanges as those are considered off-chain transactions and could greatly affect the fundamental value boundary calculations.
+The significance of these findings leads one to believe value of the Bitcoin network is related to the amount of Daily Active Addresses or rather the number of daily unique on-chain transactions. **On-chain transactions being a crucial detail** as it eliminates the trading activity found on crypto exchanges as those are considered off-chain transactions and could greatly affect the fundamental value boundary calculations.
