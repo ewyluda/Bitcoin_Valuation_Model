@@ -35,12 +35,14 @@ Odlyzko's Law (NV ~ n*ln(n)) was used to create the lower fundamental value boun
 ## Normalizing Upper and Lower Boundaries
 
 The fundamental upper and lower boundaries that were derived above were then normalized by taking the sum of the boundaries and dividing them by 2 to create a fundamental valuation of the Bitcoin network. The fundamental valuation was plotted against Bitcoin price to examine the correlation.
-![Fundamental Value Normalized](resources/fundamental_normalized.png)
+![Fundamental Value Formula](resources/fundamental_normalized.png)
 
 Values (a1, a2, b1, b2) are constants that were chosen empirically through testing to find the narrowest channel between the upper and lower boundaries while still containing the actual net asset value.
 
 30 MA[] signifies the 30-day moving average for the inside values.
 
+![Fundamental Value Plot](resources/fundamental.png)
+
 ## Results
-The correlation between Bitcoin's actual price and the different variations of Metcalfe’s law is 0.939, and the differences in correlation between the varying laws is so small it can be considered equal.
+The correlation between Bitcoin's actual price and the different variations of Metcalfe’s law is **0.939**, and the differences in correlation between the varying laws is so small it can be considered equal.
 The significance of these findings leads one to believe value of the Bitcoin network is related to the amount of Daily Active Addresses or rather the number of daily unique on-chain transactions. On-chain transactions is a crucial detail as it eliminates the trading activity found on crypto exchanges as those are considered off-chain transactions and could greatly affect the fundamental value boundary calculations.
