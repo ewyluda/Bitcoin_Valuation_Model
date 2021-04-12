@@ -2,7 +2,7 @@
 #### A model to estimate whether current Bitcoin price is supported by activity on the network.
 
 #### A special thanks to Dmitry Kalichkin for the inspiration to continue the work by CryptoLab Capital found in his post on medium.com
-**Rethinking Metcalfe’s Law applications to cryptoasset valuation by @Kalichkin https://link.medium.com/TyrugPb9ofb 
+**Rethinking Metcalfe’s Law applications to cryptoasset valuation** by @Kalichkin https://link.medium.com/TyrugPb9ofb 
 
 ## Introduction
 Since 2017 Bitcoin and the cryptocurrency universe has attracted massive attention and has been a personal interest of mine. While researching ways to value Bitcoin and other cryptocurrencies, I came across the work of Chris Burniske and his book, Cryptoassets: The Innovative Investor's Guide to Bitcoin and Beyond, and became fascinated with his method to determine the fundamental value of cryptocurrencies using Metcalfe's Law.
