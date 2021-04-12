@@ -9,7 +9,7 @@ Since 2017 Bitcoin and the cryptocurrency universe has attracted massive attenti
 
 ![NVT Formula](resources/NVT_formula.png)
 
-In traditional finance, a Price-to-Earnings ratio (PE ratio) is used as a proxy for the underlying equity to measure and compare the value of a company to its peers or competitors. PE ratio is calculated by taking the share price in the numerator and dividing it by the company's Earnings per Share (EPS) in the denominator. The resulting ratio can be used for comparison against other peer company PE ratios as it eliminates unique metrics such as outstanding share count across different companies.
+In traditional finance, Price-to-Earnings ratio (PE ratio) is used as a proxy for the underlying equity to measure and compare the value of a company to its peers or competitors. PE ratio is calculated by taking the share price in the numerator and dividing it by the company's Earnings per Share (EPS) in the denominator. The resulting ratio can be used for comparison against other peer company PE ratios as it eliminates unique metrics such as outstanding share count across different companies.
 
 While crytocurrenies or cryptoassets don't have earnings, one can argue that the total value of transactions flowing through the network is a proxy for how much utility users derive from the blockchain.
 **Note:** Daily Transaction Volume in NVT takes into account only on-chain transactions. All the trading activity that happens on exhanges is considered speculative and not included in this measure.
