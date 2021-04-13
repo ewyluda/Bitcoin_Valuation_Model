@@ -37,7 +37,7 @@ Metcalfe's Original Law (NV ~ n2) was used to create the upper fundamental value
 
 Odlyzko's Law (NV ~ n*ln(n)) was used to create the lower fundamental value boundary. Odlyzko's Law, being the most conservative of the 3 variations studied made the most sense to use for the lower boundary.
 
-![Upper & Lower Boundaries](resources/upper_lower_bounds.png)
+![Upper & Lower Boundaries](resources/Fig1.png)
 
 ### Calculations
 ![Boundary Formula](resources/upper_lower_formula.png)
@@ -51,8 +51,8 @@ Values (a1, a2, b1, b2) are constants that were chosen empirically through testi
 
 30 MA[] signifies the 30-day moving average for the inside values.
 
-![Fundamental Value Plot](resources/fundamental.png)
+![Fundamental Value Plot](resources/Fig2.png)
 
 ## Results
-The correlation between Bitcoin's actual price and the different variations of Metcalfe’s law is **0.939**, and the differences in correlation between the varying laws is so small it can be considered equal.
+The correlation between Bitcoin's actual price and the different variations of Metcalfe’s law is **0.970**, and the differences in correlation between the varying laws is so small it can be considered equal.
 The significance of these findings leads one to believe value of the Bitcoin network is related to the amount of Daily Active Addresses or rather the number of daily unique on-chain transactions. **On-chain transactions being a crucial detail** as it eliminates the trading activity found on crypto exchanges as those are considered off-chain transactions and could greatly affect the fundamental value boundary calculations.
