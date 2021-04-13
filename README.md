@@ -56,3 +56,5 @@ Values (a1, a2, b1, b2) are constants that were chosen empirically through testi
 ## Results
 The correlation between Bitcoin's actual price and the different variations of Metcalfe’s law is **0.970**, and the differences in correlation between the varying laws is so small it can be considered equal.
 The significance of these findings leads one to believe value of the Bitcoin network is related to the amount of Daily Active Addresses or rather the number of daily unique on-chain transactions. **On-chain transactions being a crucial detail** as it eliminates the trading activity found on crypto exchanges as those are considered off-chain transactions and could greatly affect the fundamental value boundary calculations.
+
+![Correlation Calcs](resources/correlation.png)
