@@ -1,7 +1,7 @@
 # Bitcoin_Valuation_Model
 #### A model to estimate whether current Bitcoin price is supported by activity on the network.
 
-#### A special thanks to Dmitry Kalichkin for the inspiration to continue the work by CryptoLab Capital found in his post on medium.com
+#### A special thanks to Dmitry Kalichkin for the inspiration to continue the work by CryptoLab Capital, found in their post on medium.com
 **Rethinking Metcalfe’s Law applications to cryptoasset valuation** by @Kalichkin https://link.medium.com/TyrugPb9ofb 
 
 ## Introduction
@@ -21,7 +21,7 @@ Metcalfe's Law, states that the value of a telecommunications network is proport
 
 Two telephones can make only one connection, five can make 10 connections, and twelve can make 66 connections.
 
-Critics of Metcalfe's Law point to the fact that not all network connections or users contribute equally to the network, to account for this I used Metcalfe's Law (NV ~ n2) along with two variations being Odlyzko's Law and Generalized Metcalfe's Law (Clearblocks determination) shown below:
+Critics of Metcalfe's Law point to the fact that not all network connections or users contribute equally to the network. To account for this, Metcalfe's Law (NV ~ n2) along with two more conservative variations being Odlyzko's Law and Generalized Metcalfe's Law (Clearblocks determination) were used and are shown below:
 
 ![Metcalfe Variations](resources/metcalfe_variations.png)
 
@@ -33,7 +33,7 @@ Daily data for Bitcoin NAV and Daily Active Addresses was sourced from https://c
 
 ## Developing Fundamental Upper & Lower Boundaries
 
-Metcalfe's Original Law (NV ~ n2) was used to create the upper fundamental value boundary for Bitcoin. The original law was chosen for the upper boundary because it is the most liberal and considers each and every user equally contributes to the value of the network which is idealistic but makes for a logical upper boundary.
+Metcalfe's Original Law (NV ~ n2) was used to create the upper fundamental value boundary for Bitcoin. The original law was chosen for the upper boundary because it is the most liberal and considers each user contributes equally to the value of the network, which is idealistic but makes for a logical upper boundary.
 
 Odlyzko's Law (NV ~ n*ln(n)) was used to create the lower fundamental value boundary. Odlyzko's Law, being the most conservative of the 3 variations studied made the most sense to use for the lower boundary.
 
@@ -47,7 +47,7 @@ Odlyzko's Law (NV ~ n*ln(n)) was used to create the lower fundamental value boun
 The fundamental upper and lower boundaries that were derived above were then normalized by taking the sum of the boundaries and dividing them by 2 to create a fundamental valuation of the Bitcoin network. The fundamental valuation was plotted against Bitcoin price to examine the correlation.
 ![Fundamental Value Formula](resources/fundamental_normalized.png)
 
-Values (a1, a2, b1, b2) are constants that were chosen empirically through testing to find the narrowest channel between the upper and lower boundaries while still containing the actual net asset value.
+Values (a1, a2, b1, b2) are constants that were chosen empirically through testing to find the narrowest channel between the upper and lower boundaries while still containing the actual network value.
 
 30 MA[] signifies the 30-day moving average for the inside values.
 
