@@ -1,0 +1,30 @@
+# Dockerfile for Data Pipeline
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Install system dependencies
+RUN apt-get update && apt-get install -y \
+    gcc \
+    cron \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
+
+# Copy shared module
+COPY shared/ /app/shared/
+
+# Copy pipeline code
+COPY pipeline/requirements.txt /app/
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY pipeline/ /app/pipeline/
+
+# Set environment variables
+ENV PYTHONPATH=/app
+ENV DATABASE_URL=sqlite:///data/btc_valuation.db
+
+# Create data directory
+RUN mkdir -p /app/data
+
+# Default command runs the scheduler
+CMD ["python", "-m", "pipeline.src.scheduler", "schedule"]
